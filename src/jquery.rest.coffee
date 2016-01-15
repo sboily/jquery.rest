@@ -72,6 +72,7 @@ class Cache
       return result.data
     return
   put: (key, data) ->
+    data = JSON.parse(JSON.stringify(data.responseJSON))
     @c[key] =
       created: new Date()
       data: data
