@@ -195,7 +195,7 @@ class Resource
       else if t is 'object' and params is null
         params = arg
       else
-        error "Invalid argument: #{arg} (#{t})." +
+        error "Invalid argument: #{arg} (" + @[name] + ": #{t})." +
               " Must be strings or ints (IDs) followed by one optional object and one optional query params object."
 
     providedIds = ids.length
