@@ -69,7 +69,7 @@ class Cache
     unless result
       return
     if @valid result.created
-      return result.data
+      return $.when JSON.parse(JSON.stringify(result.data))
     return
   put: (key, data) ->
     data = JSON.parse(JSON.stringify(data.responseJSON))
