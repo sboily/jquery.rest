@@ -89,7 +89,7 @@ class Verb
     validateStr 'method', @method
     validateOpts options
     error "Cannot add Verb: '#{name}' already exists" if @parent[@name]
-    @method = method.toUpperCase()
+    @method = @method.toUpperCase()
 
     #default url to blank
     options.url = '' unless options.url
