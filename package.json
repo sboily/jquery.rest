@@ -1,0 +1,26 @@
+{
+  "name": "jquery.rest",
+  "version": "1.0.2",
+  "description": "A jQuery plugin for easy consumption of REST APIs",
+  "main": "dist/jquery.rest.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sboily/jquery.rest.git"
+  },
+  "keywords": [
+    "jquery",
+    "rest"
+  ],
+  "author": "Jaime Pillora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sboily/jquery.rest/issues"
+  },
+  "homepage": "https://github.com/sboily/jquery.rest#readme"
+}
