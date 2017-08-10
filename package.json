@@ -1,6 +1,6 @@
 {
   "name": "jquery.rest",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A jQuery plugin for easy consumption of REST APIs",
   "main": "dist/jquery.rest.min.js",
   "directories": {
